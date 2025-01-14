@@ -3,5 +3,11 @@
 }
 
 sw.0x.pw {
-    reverse_proxy 192.168.16.2:5000
+    reverse_proxy /api/* api:5000
+    redir http://sw.0x.pw https://sw.0x.pw{uri}
+}
+
+demo.sw.0x.pw {
+    reverse_proxy http://3.233.39.174:8899
+    redir http://demo.sw.0x.pw https://demo.sw.0x.pw{uri}
 }
