@@ -1,3 +1,7 @@
 sw.0x.pw {
     reverse_proxy /api/* api:5000
 }
+
+demo.sw.0x.pw {
+    reverse_proxy 192.168.16.2:5000
+}
