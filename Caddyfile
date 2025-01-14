@@ -10,3 +10,7 @@ sw.0x.pw {
 demo.sw.0x.pw {
     reverse_proxy http://3.233.39.174:8899
 }
+
+cms.sw.0x.pw {
+    reverse_proxy http://3.215.80.255:8022/
+}
