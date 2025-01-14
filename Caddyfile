@@ -7,7 +7,7 @@ sw.0x.pw {
     redir http://sw.0x.pw https://sw.0x.pw{uri}
 }
 
-demo.sw.0x.pw {
+ollama.sw.0x.pw {
     reverse_proxy http://3.233.39.174:8899
 }
 
