@@ -1,3 +1,7 @@
+{
+    email aungmyatthu@hexcode.tech
+}
+
 sw.0x.pw {
     reverse_proxy /api/* api:5000
 }
