@@ -19,6 +19,5 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        scp -o "StrictHostKeyChecking=no" cicd/docker-compose.yml ec2-user@34.197.47.159:/home/ec2-user/cicd/
         scp -o "StrictHostKeyChecking=no" cicd/Caddyfile ec2-user@34.197.47.159:/home/ec2-user/cicd
         ssh -o "StrictHostKeyChecking=no" ec2-user@34.197.47.159 "docker compose -f /home/ec2-user/cicd/docker-compose.yml pull && docker compose -f /home/ec2-user/cicd/docker-compose.yml up -d"
