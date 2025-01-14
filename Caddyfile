@@ -4,7 +4,6 @@
 
 sw.0x.pw {
     reverse_proxy /api/* api:5000
-    redir http://sw.0x.pw https://sw.0x.pw{uri}
 }
 
 ollama.sw.0x.pw {
