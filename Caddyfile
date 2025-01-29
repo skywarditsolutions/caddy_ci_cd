@@ -2,14 +2,14 @@
     email aungmyatthu@hexcode.tech
 }
 
-sw.0x.pw {
+proxys.skywardailabs.com {
     reverse_proxy /api/* api:5000
 }
 
-ollama.sw.0x.pw {
+ollama.skywardailabs.com {
     reverse_proxy http://3.233.39.174:8899
 }
 
-cms.sw.0x.pw {
+cms.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8022
 }
