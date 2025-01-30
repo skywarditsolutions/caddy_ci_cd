@@ -13,3 +13,8 @@ ollama.skywardailabs.com {
 cms.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8022
 }
+
+
+litellm.skywardailabs.com {
+    reverse_proxy http://172.31.87.50:4000
+}
