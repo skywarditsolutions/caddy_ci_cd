@@ -1,5 +1,5 @@
 {
-    email info@skywarditlabs.com
+    email aungmyatthu@hexcode.tech
 }
 
 proxys.skywardailabs.com {
@@ -14,7 +14,22 @@ cms.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8022
 }
 
+frontendlcat.skywardailabs.com {
+    reverse_proxy http://3.233.39.174:8291
+}
 
-litellm.skywardailabs.com {
-    reverse_proxy http://172.31.87.50:4000
+backendlact.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8299
+}
+
+uat-swparse.skywardailabs.com {
+    reverse_proxy http://52.202.108.42:8000
+}
+
+dev-swparse.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8000
+}
+
+askcedar.skywardailabs.com {
+    reverse_proxy http://3.233.39.174:8022
 }
