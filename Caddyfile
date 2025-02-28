@@ -33,3 +33,11 @@ dev-swparse.skywardailabs.com {
 askcedar.skywardailabs.com {
     reverse_proxy http://3.233.39.174:8022
 }
+
+skymcp.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8700
+}
+
+skymcp-backend.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8999
+}
