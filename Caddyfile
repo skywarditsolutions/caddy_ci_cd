@@ -41,3 +41,11 @@ skymcp.skywardailabs.com {
 skymcp-backend.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8999
 }
+
+skymcp-llm.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8888
+}
+
+skymcp-server.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8900
+}
