@@ -25,11 +25,15 @@ backendlact.skywardailabs.com {
 uat-swparse.skywardailabs.com {
     reverse_proxy http://52.202.108.42:8000
 }
-
+uat-fe-swparse.skywardailabs.com {
+    reverse_proxy http://52.202.108.42
+}
 dev-swparse.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8000
 }
-
+dev-fe-swparse.skywardailabs.com {
+    reverse_proxy http://3.215.80.255
+}
 askcedar.skywardailabs.com {
     reverse_proxy http://3.233.39.174:8022
 }
