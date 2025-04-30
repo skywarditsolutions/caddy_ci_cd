@@ -53,3 +53,7 @@ skymcp-llm.skywardailabs.com {
 skymcp-server.skywardailabs.com {
     reverse_proxy http://3.215.80.255:8900
 }
+
+foiakit-chat.skywardailabs.com {
+    reverse_proxy http://3.215.80.255:8100
+}
